@@ -27,7 +27,15 @@ const itemEstilo = {
   height: 50,
   backgroundColor: '#DDD',
   borderWidth: 0.5,
-  borderColor: '#222'
+  borderColor: '#222',
+
+  // FLex
+  alignItems: 'center',
+  //justifyContent: 'space-around',
+  flexDirection: 'row',
+  justifyContent: 'space-between'
+  
+
 }
 
 export const Aluno = props =>
